@@ -1,6 +1,4 @@
-# RMCamo
-Beyond Text-Driven Generation: Environment-Aware Reference Image-Guided Synthesis for Camouflaged Object Detection
-# Beyond Text-Driven Generation: Environment-Aware Reference Image-Guided Synthesis for Camouflaged Object Detection
+# RMCamo: Reference-guided Multimodal Camouflaged Image Generation
 
 <p align="center">
   <img src="assets/fig4_rmcamo_overview.png" alt="RMCamo framework overview (Figure 4)" width="92%" />

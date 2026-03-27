@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Weights & checkpoints (not shipped in this repo)
+checkpoints/
+weights/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Data & outputs (released separately)
+data/
+datasets/
+outputs/
+logs/
+wandb/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store

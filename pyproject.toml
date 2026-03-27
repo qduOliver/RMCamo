@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rmcamo"
+version = "0.1.0"
+description = "RMCamo: Reference-guided Multimodal Camouflaged Image Generation"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+full = [
+    "diffusers>=0.27.0",
+    "accelerate>=0.27.0",
+    "transformers>=4.45.0",
+    "safetensors>=0.4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rmcamo*"]

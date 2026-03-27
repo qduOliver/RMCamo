@@ -1,0 +1,17 @@
+# Core
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+Pillow>=10.0.0
+PyYAML>=6.0
+
+# Diffusion stack (for future training/inference integration)
+diffusers>=0.27.0
+accelerate>=0.27.0
+transformers>=4.45.0
+safetensors>=0.4.0
+# Required to load official IP-Adapter .safetensors (image_proj weights)
+
+# Optional: Qwen2-VL (vision-language captioning)
+# qwen-vl-utils is recommended by Qwen team for multi-image preprocessing
+# pip install qwen-vl-utils
